@@ -1,0 +1,526 @@
+#!/bin/bash
+#this file was created on 22/05/2018
+#created by MR.R3DH3T
+#HANYA PENDOSA YANG INGIN BERUBAH
+
+green='\e[1;32m'
+red='\e[1;31m'
+white='\e[1;37m'
+yellow='\e[1;33m'
+blue='\e[0;34m'
+
+clear
+###############################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo ""
+toilet -F metal -f standard Thanks
+echo ""
+echo -e $red" >> For Using My Tools :) <<"
+echo -e $white"         MR.R3DH3T    "
+echo ""
+echo -e $white"  >>   instagram : naufalziidane_    "
+
+sleep 1
+exit
+}
+################################################################
+echo ""
+echo ""
+echo -e $green"                                WELCOME TO AUTO INSTALLER"
+echo -e $white"    	          >>  Assalamua'alaikum warohmatullohi wabarokatuhu  <<"
+echo ""
+
+echo -e $blue "#####################################################################################"
+echo -e -n $blue" [X]> USER 		: " $green; whoami
+echo -e -n $blue" [X]> TIME 		: " $green; date
+echo -e -n $blue" [X]> ACTIVE		: "$green; uptime
+echo -e $blue "#####################################################################################"
+echo ""
+echo -e $white"   [X]> Thanks To : MsLq"
+echo -e $white"                    Opposite6890"
+echo -e $white"                    Anonymous_greenhorn88"
+echo -e $white"                    Loopstr34k"
+echo -e $white"                    And all member"
+echo -e ""
+echo -e $white"   [X]> Greetz    : DWIPANTARA "
+echo -e $white"                    RAPTOR CODEX"
+echo -e $white"                    CYBER MAFIA"
+echo -e $white"                    MOSLEM CYBER TEAM"
+
+echo ""
+echo ""
+echo -e $red"                       __  __      ____  _____ ____  _   _ __________"
+echo -e $red"                      |  \/  |_ __|  _ \|___ /|  _ \| | | |___ /_   _|"
+echo -e $red"                      | |\/| | '__| |_) | |_ \| | | | |_| | |_ \ | |"
+echo -e $red"                      | |  | | | _|  _ < ___) | |_| |  _  |___) || |"
+echo -e $red"                      |_|  |_|_|(_)_| \_\____/|____/|_| |_|____/ |_|"
+echo -e $white"                    __________________________________________________"
+echo ""
+echo -e $blue"######################################################################################"
+echo ""
+################################################################
+echo -e $white" #     Select Tools For Install "
+echo ""
+echo -e $blue"  {01}  RED HAWK"
+echo -e $blue"  {02}  Admin Finder"
+echo -e $blue"  {03}  Ubuntu "
+echo -e $blue"  {04}  XAttacker for Termux "
+echo -e $blue"  {05}  Weeman "
+echo -e $blue"  {06}  PUPPY "
+echo -e $blue"  {07}  SQLMAP "
+echo -e $blue"  {08}  Metasploit Framework "
+echo -e $blue"  {09}  RouterSploit "
+echo -e $blue"  {10}  Aircrack-ng "
+echo -e $blue"  {11}  IPGeolocation "
+echo -e $blue"  {12}  UFONet "
+echo -e $blue"  {13}  BruteSploit "
+echo -e $blue"  {14}  Venom "
+echo -e $blue"  {15}  Facebook-Bruter"
+echo -e $blue"  {16}  Wifite"
+echo -e $blue"  {17}  WIfi Phisher"
+echo -e $blue"  {18}  Hammer"
+echo -e $blue"  {19}  Katoolin"
+echo -e $blue"  {20}  Hydra"
+echo -e $blue"  {21}  D-TECT"
+echo -e $blue"  {22}  CMSmap"
+echo -e $blue"  {23}  Wpscan"
+echo -e $blue"  {24}  Magneto add admin exploiter"
+echo -e $blue"  {25}  Ngrok"
+echo -e $blue"  {26}  viSQL"
+echo -e $blue"  {27}  Hash-Buster"
+echo -e $blue"  {28}  GetYou"
+echo -e $blue"  {29}  SpazSMS"
+echo -e $blue"  {30}  SpamSMS"
+echo -e $blue"  {31}  The fat rat"
+echo ""
+echo "" 
+echo ""
+echo -e $white "Type ( Ctrl C ) For Exit"
+
+
+echo ""
+read -p "         [ root@r3dh3t ] >>  " sd;
+
+if [ $sd = 01 ] || [ $sd = 01 ]
+then 
+clear
+echo -e $white" >> Installing RED HAWK << "
+echo ""
+apt install php
+apt install git
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 02 ] || [ $sd = 02 ]
+then
+clear
+echo -e $white" >> Installing Admin Finder << "
+echo -e ""
+git clone https://github.com/the-c0d3r/admin-finder.git
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 03 ] || [ $sd = 03]
+then
+clear
+echo -e $white" >> Installing Ubuntu << "
+echo ""
+apt install wget
+apt install proot
+git clone https://github.com/Neo-Oli/termux-ubuntu.git
+cd ~/termux-ubuntu
+chmod +x ubuntu.sh
+sh ubuntu.sh
+echo " Fix Network Please Wait! "
+sleep 1
+echo "nameserver 8.8.8.8" > /data/data/com.termux/files/home/termux-ubu$
+echo ""
+echo -e $red " >> [Done install brather] << "
+fi
+
+
+if [ $sd = 04 ] || [ $sd = 04 ]
+then
+clear
+echo -e $white" >> Installing XAttacker << "
+echo ""
+git clone https://github.com/Moham3dRiahi/XAttacker.git
+cd XAttacker
+chmod +x termux-install.sh
+bash termux-install.sh
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 05 ] || [ $sd = 05 ]
+then
+clear
+echo -e $white" >> Installing Weeman << "
+echo ""
+pkg install pip
+apt install python2
+git clone https://github.com/samyoyo/weeman
+cd ~/weeman
+pip2 install beautifulsoup
+pip2 install bs4
+cd ~/
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 06 ] || [ $sd = 06 ]
+then
+clear
+echo -e $white" >> Installing PUPPY << "
+echo ""
+git clone https://github.com/n1nj4sec/pupy.git pupy
+cd pupy
+git submodule init
+git submodule update
+pip install -r pupy/requirements.txt
+wget https://github.com/n1nj4sec/pupy/releases/download/latest/payload_templates.txz
+tar xvf payload_templates.txz && mv payload_templates/* pupy/payload_templates/ && rm payload_templates.txz && rm -r payload_templates
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 07 ] || [ $sd = 07 ]
+then
+clear
+echo -e $white" >> Installing SQLMAP << "
+echo ""
+git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
+cd sqlmap-dev
+chmod +x *.py
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 08 ] || [ $sd = 08 ]
+then
+clear
+echo -e $white" >> Installing Metasploit Framework<< "
+echo ""
+apt-get update && apt-get upgrade 
+apt install git
+apt install wget
+wget https://raw.githubusercontent.com/verluchie/termux-metasploit/master/install.sh
+chmod 777 install.sh
+sh install.sh
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 09 ] || [ $sd = 09 ]
+then
+clear
+echo -e $white" >> Installing RouterSploit<< "
+echo ""
+apt-get update && upgrade
+apt-get install python3-pip
+git clone https://www.github.com/threat9/routersploit
+cd routersploit
+python3 -m pip install -r requirements.txt
+python3 rsf.py
+cd ..
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 10 ] || [ $sd = 10 ]
+then
+clear
+echo -e $white" >> Installing Aircrack-ng<< "
+echo ""
+sudo apt-get install build-essential autoconf automake libtool pkg-config libnl-3-dev libnl-genl-3-dev libssl-dev libsqlite3-dev libpcre3-dev ethtool shtool rfkill zlib1g-dev libpcap-dev
+sudo apt-get install aircrack-ng
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 11 ] || [ $sd = 11 ]
+then
+clear
+echo -e $white" >> Installing IPGeolocation<< "
+echo ""
+apt-get update && apt-get upgrade
+apt-get install git
+apt install python2
+git clone https://github.com/maldevel/IPGeolocation.git
+cd IPGeolocaion
+chmod +x *.py
+pip install -r requirements.txt
+cd ..
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 12 ] || [ $sd = 12 ]
+then 
+clear
+echo -e $white" >> Installing UFONet << "
+echo ""
+git clone https://github.com/epsylon/ufonet.git
+cd ufonet
+sudo apt-get install python-pycurl python-geoip python-whois python-crypto python-requests
+pip install geoip
+pip install requests
+pip install pycrypto
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 13 ] || [ $sd = 13 ]
+then 
+clear
+echo -e $white" >> Installing BruteSploit << "
+echo ""
+git clone https://github.com/Screetsec/Brutesploit.git
+cd Brutesploit
+chmod +x Brutesploit
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 14 ] || [ $sd = 14 ]
+then 
+clear
+echo -e $white" >> Installing Venom << "
+echo ""
+git clone https://github.com/r00t-3xp10it/venom.git
+cd venom
+sudo chmod -R +x *.sh
+sudo chmod -R +x *.py
+cd aux
+sudo ./setup.sh
+echo ""
+echo -e $red" >> [Done install brather] << " "run main tools >> msfvenom <<"
+fi
+
+
+if [ $sd = 15 ] || [ $sd = 15 ]
+then 
+clear
+echo -e $white" >> Installing Facebook-Bruter << "
+echo ""
+sudo apt-get update && upgrade
+git clone https://github.com/imadoxhunter/Facebook-Bruter.git
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+if [ $sd = 16 ] || [ $sd = 16 ]
+then 
+clear
+echo -e $white" >> Installing Wifite << "
+echo ""
+sudo apt-get update && upgrade
+git clone https://github.com/derv82/wifite.git
+cd wifite
+chmod +x wifite.py
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 17 ] || [ $sd = 17 ]
+then 
+clear
+echo -e $white" >> Installing Wifi Phisher << "
+echo ""
+git clone https://github.com/wifiphisher/wifiphisher.git
+cd wifiphisher
+sudo python setup.py install
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 18 ] || [ $sd = 18 ]
+then 
+clear
+echo -e $white" >> Installing Hammer << "
+echo ""
+sudo apt-get update && upgrade
+git clone https://github.com/cyweb/hammer.git
+cd hammer
+chmod +x hammer.py
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 19 ] || [ $sd = 19 ]
+then 
+clear
+echo -e $white" >> Installing Katoolin << "
+echo ""
+sudo git clone https://github.com/LionSec/katoolin.git && cp katoolin/katoolin.py /usr/bin/katoolin
+chmod +x /usr/bin/katoolin
+sudo katoolin
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 20 ] || [ $sd = 20 ]
+then 
+clear
+echo -e $white" >> Installing Hydra << "
+echo ""
+sudo apt-get install hydra
+wget http://scrapmaker.com/download/data/wordlists/dictionaries/rockyou.txt
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 21 ] || [ $sd = 21 ]
+then 
+clear
+echo -e $white" >> Installing D-TECT << "
+echo ""
+git clone https://github.com/shawarkhanethicalhacker/D-TECT.git
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 22 ] || [ $sd = 22 ]
+then
+clear
+echo -e $white " >> Installing CMSmap << "
+echo ""
+git clone https://github.com/Dionach/CMSmap.git
+chmod +x cmsmap.py
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+if [ $sd = 23 ] || [ $sd = 23 ]
+then
+clear
+echo -e $white " >> Installing Wpscan << "
+echo ""
+apt-get update && apt-get upgrade
+apt install ruby
+apt install curl
+git clone git clone https://github.com/wpscanteam/wpscan
+cd ~/wpscan
+gem install bundle
+bundle config build.nokogiri --use-system-libraries
+bundle install
+ruby wpscan.rb --update
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+if [ $sd = 24 ] || [ $sd = 24 ] 
+then
+clear
+echo -e $white " >> Installing Magneto add admin exploiter << "
+apt-get install php
+mkdir magneto
+cd ~/magneto
+wget https://pastebin.com/raw/PXkG73pG -O magento.php
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+if [ $sd = 25 ] || [ $sd = 25 ]
+then
+clear
+echo -e $white " >> Installing Ngrok << "
+apt-get update
+apt install wget
+mkdir ngrok
+cd ~/ngrok
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+unzip ngrok-stable-linux-arm.zip
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+if [ $sd = 26 ] || [ $sd = 26 ]
+then
+clear
+echo -e $white " >> Installing viSQL << "
+apt-get update 
+pkg install git
+pkg install python2 
+git clone https://github.com/blackvkng/viSQL.git
+cd ~/ viSQL
+chmod 777 viSQL.py
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+if [ $sd = 27 ] || [ $sd = 27 ]
+then
+clear
+echo -e $white " >> Install Hash-Buster << "
+apt-get update
+apt install python2 && git 
+git clone https://github.com/UltimateHackers/Hash-Buster
+cd Hash-Buster
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+
+if [ $sd = 28 ] || [ $sd = 28 ]
+then
+clear
+echo -e $white " >> Installing GetYou << "
+sudo apt-get install git
+git clone https://github.com/M413-M/GetYou.git
+chmod +x getyou
+echo ""
+echo -e $red" >> [Done install brather] << " ">>USAGE<< ./getyou"
+fi
+
+if [ $sd = 29 ] || [ $sd = 29 ]
+then
+clear
+echo -e $white " >> Installing SpazSMS << "
+git clone https://github.com/Gameye98/SpazSMS.git
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
+
+if [ $sd = 30 ] || [ $sd = 30 ]
+then
+clear
+echo -e $white " >> Installing SpamSMS << "
+git clone https://github.com/Senitopeng/SpamSms.git
+echo ""
+echo -e $red" >> [Done install brather] << " ">>USAGE CAll All<<  nano no.txt"
+fi
+
+if [ $sd = 31 ] || [ $sd = 31 ]
+then
+clear
+apt-get update && upgrade
+apt get install git
+git clone https://github.com/Screetsec/TheFatRat.git
+cd TheFatRat
+chmod +x setup.sh && ./setup.sh
+echo ""
+echo -e $red" >> [Done install brather] << "
+fi
